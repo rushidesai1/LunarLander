@@ -16,4 +16,12 @@ To replicate Figure 4
 python alpha_lambda_error.py
 ```
 
+### Figure 5
+
+To replicate Figure 5
+
+```bash
+python best_rmse_error.py
+```
+
 
