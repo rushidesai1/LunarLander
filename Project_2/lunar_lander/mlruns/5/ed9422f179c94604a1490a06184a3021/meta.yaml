@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/rushidesai/PycharmProjects/pythonProject/project2/lunar_lander/mlruns/5/ed9422f179c94604a1490a06184a3021/artifacts
+end_time: 1625030782256
+entry_point_name: ''
+experiment_id: '5'
+lifecycle_stage: active
+name: ''
+run_id: ed9422f179c94604a1490a06184a3021
+run_uuid: ed9422f179c94604a1490a06184a3021
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1625030782230
+status: 3
+tags: [ ]
+user_id: rushidesai

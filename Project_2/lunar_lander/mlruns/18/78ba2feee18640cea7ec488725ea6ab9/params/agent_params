@@ -1,0 +1,1 @@
+{'network_config': {'state_dim': 8, 'num_hidden_units': 256, 'action_dim': 4, 'seed': 0}, 'optimizer_config': {'step_size': 0.001, 'betas': (0.9, 0.999)}, 'name': 'q-learning', 'device': 'cpu', 'replay_buffer_size': 50000, 'mini_batch_size': 64, 'num_replay_updates_per_step': 4, 'gamma': 0.5, 'tau': 0.001, 'checkpoint_dir': 'model_weights/LunarLander-v2/q-learning', 'seed': 0}
