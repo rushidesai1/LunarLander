@@ -2,6 +2,7 @@ import argparse
 from datetime import datetime
 from unittest import TestCase
 
+import matplotlib.pyplot as plt
 import mlflow
 import numpy as np
 
@@ -38,3 +39,6 @@ class Test(TestCase):
             avg_episode_reward = np.average(np.array(episode_rewards))
             rewards_100_episodes.append(avg_episode_reward)
             mlflow.log_metric("reward_episode", avg_episode_reward, i)
+
+        plt.plot(rewards_100_episodes)
+        plt.show()
